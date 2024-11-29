@@ -13,4 +13,4 @@ data= {
     "mobile": "0764087299"
 }
 response=requests.post(url,data)
-print(response.content)
+print(response)
