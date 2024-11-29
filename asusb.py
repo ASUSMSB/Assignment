@@ -12,5 +12,5 @@ data= {
 	"password_confirm": "Asus@2000",
     "mobile": "0764087299"
 }
-response=requests.get(url,data)
+response=requests.post(url,data)
 print(response.content)
